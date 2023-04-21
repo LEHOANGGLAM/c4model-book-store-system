@@ -111,12 +111,6 @@ workspace {
             autoLayout
         }
 
-        # deployment <software-system> <environment> <key> <description>
-        deployment bookStoreSystem "Development" "Dep-002-DEV" "Environment for Developer" {
-            include *           
-            autoLayout
-        }
-
         styles {
             # element <tag> {}
             element "PublicUser"{
